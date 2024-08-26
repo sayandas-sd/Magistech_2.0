@@ -11,6 +11,7 @@ import Paralax from "@/components/Paralax";
 import WhatsNew from "@/components/Merchandise";
 import ShirtBuy from "@/components/ShirtBut";
 
+
 export default function Home() {
   return (
     <main className="h-full w-full ">

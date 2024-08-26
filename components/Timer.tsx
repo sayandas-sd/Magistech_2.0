@@ -46,7 +46,7 @@ export default function Timer({ launchDate }: { launchDate: string }) {
   
   if (!hasMounted) {
     return <div className="flex flex-col items-center justify-center text-white">
-      <div className="mb-6 text-2xl font-medium font-bold">We are Launching Soon.....</div>
+      <div className="mb-6 text-2xl font-medium font-bold baskervville-sc-regular">We are Launching Soon.....</div>
       <div className="flex space-x-4 md:text-3xl text-xl font-extrabold border border-1 p-6 rounded-xl">
         <div className="text-center">00 : <div></div></div>
         <div className="text-center">00 : <div></div></div>

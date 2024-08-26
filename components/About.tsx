@@ -16,7 +16,6 @@ export default function About() {
              animate="show"
              className={`${styles.innerWidth} italic font-bold mx-auto ${styles.flexCenter} flex-col`}
             >
-
                 <motion.p
                 variants={fadeIn('up', 'tween', 0.2, 1)}
                 className="mt-[8px] font-normal sm:text-[32px] text-[20px] mb-10 font-bold text-white text-center text-secondary-white"

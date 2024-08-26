@@ -22,7 +22,7 @@ export default function Parallax() {
                     className="
                     rounded-2xl
                         relative 
-                        w-[20vh] h-[20vh] 
+                        w-[15vh] h-[15vh] 
                         md:h-[50vh] 
                         lg:w-[25vw] lg:h-[25vh]
                         object-cover

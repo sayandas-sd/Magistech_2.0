@@ -26,7 +26,7 @@ export default function HeroContent() {
           className="Welcome-box py-[8px] px-[7px] opacity-[0.9]"
         >
           <div className="Welcome-box py-[5px] opacity-[0.9]">
-            <h1 className="Welcome-text font-young font-semibold text-3xl md:text-2xl text-white" 
+            <h1 className="Welcome-text font-young font-semibold text-2xl md:text-2xl text-white" 
             style={{ fontFamily: "'DM Serif Text', serif" }}>
             GNIT Presents
             </h1>
