@@ -43,10 +43,10 @@ export default function Timer({ launchDate }: { launchDate: string }) {
     return () => clearInterval(interval);
   }, [launchDate]);
 
-  // Return a placeholder until the component is mounted on the client side
+  
   if (!hasMounted) {
     return <div className="flex flex-col items-center justify-center text-white">
-      <div className="mb-6 text-xl font-medium">We are Launching Soon.....</div>
+      <div className="mb-6 text-2xl font-medium font-bold">We are Launching Soon.....</div>
       <div className="flex space-x-4 md:text-3xl text-xl font-extrabold border border-1 p-6 rounded-xl">
         <div className="text-center">00 : <div></div></div>
         <div className="text-center">00 : <div></div></div>

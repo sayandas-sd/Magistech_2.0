@@ -71,11 +71,11 @@ export default function HeroContent() {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-4 font-bold text-white max-w-[600px] w-auto h-auto"
         >
-          <div className="container mt-10 glow-on-hover text-center flex flex-col justify-center">
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLScyMcEFcT7tbpK6K9vMdo7ZD65B_CpX5wlSH8sVj8AQBkID8w/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link">
+          <div className="container mt-10 glow-on-hover text-center flex flex-col justify-center">
                 Register Events
-            </Link>
           </div>
+            </Link>
         </motion.div>
       </div>
     </motion.div>
