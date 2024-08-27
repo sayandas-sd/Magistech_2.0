@@ -37,11 +37,11 @@ export default function HeroContent() {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 text-7xl mt-4 font-bold text-white max-w-[700px] w-auto h-auto"
         >
-          <span className="md:text-6xl text-3xl lg:text-7xl" style={{ fontFamily: "'DM Serif Text', serif" }}>
+          <span className="md:text-6xl text-2xl lg:text-7xl" style={{ fontFamily: "'DM Serif Text', serif" }}>
           
-            <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-violet-800 to-cyan-400">
-            MAGISTECH-2.0{" "}
-            {" "}
+            <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-violet-700 to-cyan-400">
+            MAGISTECH-{" "}
+            2.0{" "}
             </span>
             
           </span>

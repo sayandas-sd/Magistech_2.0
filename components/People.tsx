@@ -1,44 +1,44 @@
-import co1 from "../public/people/co/sanjib_ghosh.jpeg";
-import co2 from "../public/people/co/mousumi_ghosh.jpeg";
-import co3 from "../public/people/co/debosmita_das.jpeg";
-import co4 from "../public/people/co/arpan_saha.jpeg";
+import co1 from "../public/people/co/sanjib.jpeg";
+import co2 from "../public/people/co/mousumi.jpeg";
+import co3 from "../public/people/co/debosmita_das copy.jpeg";
+import co4 from "../public/people/co/arnab_saha.jpeg";
 
 import media from "../public/people/media/arpan.jpeg";
 
 import head1 from "../public/people/head/sayan.jpeg";
-import head2 from "../public/people/head/anish_khan.jpeg";
-import head3 from "../public/people/head/raj_chowdhury.jpeg";
-import head4 from "../public/people/head/sehnaz_parvin.jpeg";
-import head5 from "../public/people/head/neelavra_chakraborty.jpeg";
-import head6 from "../public/people/head/avirup_ghosal.jpeg";
-import head7 from "../public/people/head/jeshmita_chatterjee.jpeg";
-import head8 from "../public/people/head/taniushree_khan.jpeg";
-import head9 from "../public/people/head/dipan_dutta.jpeg";
-import head10 from "../public/people/head/devmalya_ray.jpeg";
-import head11 from "../public/people/head/khusi_yadav.jpeg";
-import head12 from "../public/people/head/sunny_shah.jpeg";
-import head13 from "../public/people/head/priya_anand.jpeg";
+import head2 from "../public/people/head/anish.jpeg";
+import head3 from "../public/people/head/raj.jpeg";
+import head4 from "../public/people/head/sehnaz.jpeg";
+import head5 from "../public/people/head/neelavra.jpeg";
+import head6 from "../public/people/head/avirup.jpeg";
+import head7 from "../public/people/head/jeshmita.jpeg";
+import head8 from "../public/people/head/tanusshree.jpeg";
+import head9 from "../public/people/head/dipan.jpeg";
+import head10 from "../public/people/head/devmalya.jpeg";
+import head11 from "../public/people/head/khusi.jpeg";
+import head12 from "../public/people/head/sunny_shah copy.jpeg";
+import head13 from "../public/people/head/priya.jpeg";
 
-import ch1 from "../public/people/Cohead/ujan_ghosh.jpeg";
-import ch2 from "../public/people/Cohead/sahis.jpeg";
-import ch3 from "../public/people/Cohead/argha_santra.jpeg";
-import ch4 from "../public/people/Cohead/arnab.jpeg";
-import ch5 from "../public/people/Cohead/anandi.jpeg";
-import ch6 from "../public/people/Cohead/supriya_mishra.jpeg";
-import ch7 from "../public/people/Cohead/sayani_pal.jpeg";
-import ch8 from "../public/people/Cohead/shovon_chaudhuri.jpeg";
-import ch9 from "../public/people/Cohead/kusal_barai.jpeg";
-import ch10 from "../public/people/Cohead/hemant_singh.jpeg";
-import ch11 from "../public/people/Cohead/deepshikha_roy.jpeg";
-import ch12 from "../public/people/Cohead/deeba_ali_naz.jpeg";
+import ch1 from "../public/people/Cohead/ujan.jpeg";
+import ch2 from "../public/people/Cohead/sahisnu.jpeg";
+import ch3 from "../public/people/Cohead/argha_santra copy.jpeg";
+import ch4 from "../public/people/Cohead/arnab copy.jpeg";
+import ch5 from "../public/people/Cohead/anandi copy.jpeg";
+import ch6 from "../public/people/Cohead/supriya.jpeg";
+import ch7 from "../public/people/Cohead/sayani.jpeg";
+
+import ch9 from "../public/people/Cohead/kushal_barai.jpeg";
+import ch10 from "../public/people/Cohead/hemant.jpeg";
+import ch11 from "../public/people/Cohead/deepshika_roy.jpeg";
+import ch12 from "../public/people/Cohead/deeba_ali_naz copy.jpeg";
 
 
 export default function People() {
     return <div className="container mx-auto mt-2 p-4">
 
         //CONVENOR
-        <div className="text-xl md:text-3xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
-                <div className="text-5xl mt-2 italic font-extrabold text-white">
+        <div className="underline underline-offset-8 text-xl md:text-3xl italic md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
+                <div className="md:text-5xl text-3xl mt-2 italic font-extrabold text-white">
                     CONVENOR
                 </div>
         </div>
@@ -50,16 +50,16 @@ export default function People() {
 
         //co-ordinator
 
-        <div className="text-xl md:text-3xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
-                <div className="text-4xl md:text-5xl mt-4 italic font-extrabold text-white">
+        <div className="underline underline-offset-8 text-xl md:text-2xl md:font-semibold tracking-wide mb-10 italic text-slate-800 flex justify-center items-center p-8 mt-7">
+                <div className="md:text-5xl text-3xl mt-4 italic font-extrabold text-white">
                     CO-ORDINATOR
                 </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mt-4 cursor-pointer flex justify-center items-center">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-4 cursor-pointer flex justify-center items-center ">
                     <div className="flex flex-col items-center justify-center h-30 rounded-full">
                         <div className="cursor-pointer">
                             <img src={co1.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-12 font-bold md:text-2xl">Sanjib Ghosh</div>
+                            <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Sanjib Ghosh</div>
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center h-30 rounded-full">
@@ -68,84 +68,223 @@ export default function People() {
                             <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Mousumi Ghosh</div>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-30 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-30 rounded-full">
                         <div className="cursor-pointer">
                             <img src={co3.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-9 font-bold md:text-2xl">Debosmita Das</div>
+                            <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Debosmita Das</div>
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center h-30 rounded-full">
                         <div className="cursor-pointer">
                             <img src={co4.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-8 font-bold md:text-2xl">Arpan Saha</div>
+                            <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Arpan Saha</div>
                         </div>
                     </div>
         </div>            
 
         //media
 
-        <div className="text-4xl md:text-5xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
-                <div className="text-5xl mt-4 italic font-extrabold text-white">
+        <div className="underline underline-offset-8 text-4xl md:text-5xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center mb-10 p-8 mt-7">
+                <div className="md:text-5xl text-3xl mt-4 italic font-extrabold text-white">
                     MEDIA
                 </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mt-4 cursor-pointer ">
-            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
-                        <div className="cursor-pointer ">
-                            <img src={media.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-8 font-bold md:text-2xl">Arpan </div>
-                            <div className="text-white text-lg font-bold md:text-2xl flex justify-center">Bhattacharya</div>
-                        </div>
-            </div>
-        </div>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-10 mt-4 cursor-pointer justify-center items-center">
+  <div className="flex flex-col items-center justify-center rounded-full">
+    <div className="cursor-pointer">
+      <img src={media.src} alt="bgmi" className="border h-44 md:h-52 rounded-full mx-auto"/>
+      <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Arpan</div>
+      <div className="text-white text-lg font-bold md:text-2xl flex justify-center">Bhattacharya</div>
+    </div>
+  </div>
+</div>
+
 
         //event head
 
-        <div className="text-xl md:text-3xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
-                <div className="text-5xl mt-4 italic font-extrabold text-white">
+        <div className="underline underline-offset-8 text-xl md:text-3xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center mb-10 p-8 mt-7">
+                <div className="md:text-5xl text-3xl mt-4 mb-5 italic font-extrabold text-white">
                     HEAD
                 </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mt-4 cursor-pointer">
-            <div className="flex flex-col items-center justify-center h-30 rounded-3xl ">
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
                         <div className="cursor-pointer ">
-                            <img src={head1.src} alt="bgmi" className="border rounded-3xl"/>
-                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Sayan Das </div>
+                            <img src={head1.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Sayan Das </div>
                         
                         </div>
             </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-3xl ">
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
                         <div className="cursor-pointer ">
-                            <img src={head2.src} alt="bgmi" className="border rounded-3xl"/>
-                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Anish Khan </div>
+                            <img src={head2.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Anish Khan </div>
                         </div>
             </div>
             <div className="flex flex-col items-center justify-center h-30 rounded-3xl ">
                         <div className="cursor-pointer ">
-                            <img src={head3.src} alt="bgmi" className="border rounded-3xl"/>
-                            <div className="text-lg text-white flex justify-center mt-8 font-bold md:text-2xl">Raj Chowdhury</div>
+                            <img src={head3.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Raj Chowdhury</div>
                         </div>
             </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-3xl ">
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
                         <div className="cursor-pointer ">
-                            <img src={head4.src} alt="bgmi" className="border rounded-3xl"/>
+                            <img src={head4.src} alt="bgmi" className="border rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-8 font-bold md:text-2xl">Sehnaz Parvin</div>
                         </div>
             </div>
-
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                        <div className="cursor-pointer ">
+                            <img src={head5.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Neelavra </div>
+                            <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Chakraborty </div>
+                        </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                        <div className="cursor-pointer ">
+                            <img src={head6.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Avitup Ghoshal </div>
+                            
+                        </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                        <div className="cursor-pointer ">
+                            <img src={head7.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Jeshmita</div>
+                            <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Chatterjee</div>
+                            
+                        </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                        <div className="cursor-pointer ">
+                            <img src={head8.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Tanushree Kha</div>
+                            
+                        </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                        <div className="cursor-pointer ">
+                            <img src={head9.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Dipan Dutta</div>
+                            
+                        </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                        <div className="cursor-pointer ">
+                            <img src={head10.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Devmalya Ghosh </div>
+                            
+                        </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                        <div className="cursor-pointer ">
+                            <img src={head11.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Khusi Yadav </div>
+                            
+                        </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                        <div className="cursor-pointer ">
+                            <img src={head12.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Sunny Shah</div>
+                            
+                        </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                        <div className="cursor-pointer ">
+                            <img src={head13.src} alt="bgmi" className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Priya Anand </div>
+                            
+                        </div>
+            </div>
         </div>
 
         //event co-head
 
-        <div className="text-xl md:text-3xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
-                <div className="text-5xl mt-4 italic font-extrabold text-white">
+        <div className="underline underline-offset-8text-xl md:text-3xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center mb-10 p-8 mt-7">
+                <div className="md:text-5xl text-3xl mt-4 italic font-extrabold text-white">
                     CO-HEAD
                 </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mt-4 cursor-pointer">
-                    <div className="text-white flex justify-center items-center">
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                            <div className="cursor-pointer ">
+                                <img src={ch1.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Ujan Ghosh</div>
+                                
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                            <div className="cursor-pointer ">
+                                <img src={ch2.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Sahisnu Das </div>
+                                <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Pattanayak</div>
+
+                                
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                            <div className="cursor-pointer ">
+                                <img src={ch3.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Argha Santra </div>
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                            <div className="cursor-pointer ">
+                                <img src={ch4.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Arnab Saha</div>
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                            <div className="cursor-pointer ">
+                                <img src={ch5.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Anandi Das </div>
+                                
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                            <div className="cursor-pointer ">
+                                <img src={ch6.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Supriya Mishra</div>
+                                
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                            <div className="cursor-pointer ">
+                                <img src={ch7.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Sayani Pal</div>
+                                
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                            <div className="cursor-pointer ">
+                                <img src={ch9.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Kushal Barai</div>
                         
-                    </div>
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                            <div className="cursor-pointer ">
+                                <img src={ch10.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-9 font-bold md:text-2xl">Hemant Singh</div>
+                                <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Rajput</div>
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
+                            <div className="cursor-pointer ">
+                                <img src={ch11.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Deepshika Roy</div>
+                        
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full md:flex md:justify-center md:items-center">
+                            <div className="cursor-pointer ">
+                                <img src={ch12.src} alt="bgmi" className="border rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Deeba Ali</div>
+                                <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Naz</div>
+                        
+                            </div>
+            </div>
         </div>
     </div>
 
