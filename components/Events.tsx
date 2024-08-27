@@ -18,7 +18,9 @@ import Link from "next/link";
 import investigate from "../public/investigate.jpeg";
 import school from "../public/school.jpeg";
 
-export default function Events() {
+export default async function Events() {
+
+    
     return (
         <div className="cursor-pointer">
             <div className="text-xl md:text-3xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">

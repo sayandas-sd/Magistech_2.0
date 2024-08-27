@@ -38,7 +38,7 @@ export default function Explore() {
             <motion.div
               key={index}
               variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-              className="flex flex-col items-center justify-center h-64 rounded-3xl"
+              className="flex flex-col items-center justify-center h-57 rounded-3xl"
             >
               <img
                 src={event.src}

@@ -20,13 +20,12 @@ export default function Parallax() {
                     src="/vdo.mp4" 
                     style={{ scale }} 
                     className="
-                    rounded-2xl
+                        rounded-2xl
                         relative 
                         w-[15vh] h-[15vh] 
                         md:h-[50vh] 
                         lg:w-[25vw] lg:h-[25vh]
-                        object-cover
-                    "
+                        object-cover"
                     autoPlay 
                     loop 
                     muted 

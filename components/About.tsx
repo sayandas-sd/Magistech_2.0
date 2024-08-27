@@ -9,7 +9,7 @@ import styles from "../styles/index";
 
 export default function About() {
     return <section className={`${styles.paddings} relative z-10`}>
-        <div className="gradient-02 z-0 mt-32">
+        <div className="gradient-02 z-0 mt-28">
             <motion.div
              variants={staggerContainer(0.2, 0.1)} 
              initial="hidden"

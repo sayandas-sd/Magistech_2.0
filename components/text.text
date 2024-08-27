@@ -1,0 +1,48 @@
+const head: Image[] = [
+    { id: 1, name: "Sayan Das" },
+    { id: 2, name: "Anish Khan" },
+    { id: 3, name: "Raj Chowdhury" },
+    { id: 4, name: "Sehnaz Parvin" },
+    { id: 5, name: "Neelavra Chakraborty" },
+    { id: 6, name: "Avirup Ghoshal" },
+    { id: 7, name: "Jeshmita Chatterjee" },
+    { id: 8, name: "Tanushree Khan" },
+    { id: 9, name: "Dipan Dutta" },
+    { id: 10, name: "Devmalya Ray" },
+    { id: 11, name: "Khusi Yadav" },
+    { id: 12, name: "Sunny Shah" },
+    { id: 13, name: "Priya Anand" },
+  ];
+  
+
+
+  const head: Image[] = [
+    { id: 6, src: head1, name: "Sayan Das" },
+    { id: 7, src: head2, name: "Anish Khan" },
+    { id: 8, src: head3, name: "Raj Chowdhury" },
+    { id: 7, src: head4, name: "Sehnaz Parvin" },
+    { id: 7, src: head5, name: "Neelavra Chakraborty" },
+    { id: 7, src: head6, name: "Avirup Ghoshal" },
+    { id: 7, src: head7, name: "Jeshmita Chatterjee" },
+    { id: 7, src: head8, name: "Tanushree Khan" },
+    { id: 7, src: head9, name: "Dipan Dutta" },
+    { id: 7, src: head10, name: "Devmalya Ray" },
+    { id: 7, src: head11, name: "Khusi Yadav" },
+    { id: 7, src: head12, name: "Sunny Shah" },
+    { id: 7, src: head13, name: "Priya Anand" },
+  ];
+  
+  const cohead: Image[] = [
+    { id: 7, src: ch1, name: "Ujan Ghosh" },
+    { id: 7, src: ch2, name: "Sahisnu Das Pattanayak" },
+    { id: 7, src: ch3, name: "Arghya Santra" },
+    { id: 7, src: ch4, name: "Arnab Saha" },
+    { id: 7, src: ch5, name: "Anandi Das" },
+    { id: 7, src: ch6, name: "Supriya Mishra" },
+    { id: 7, src: ch7, name: "Sayan Pal" },
+    { id: 7, src: ch8, name: "Shovon Chaudhuri" },
+    { id: 7, src: ch9, name: "Kushal Barai" },
+    { id: 7, src: ch10, name: "Hemant Singh" },
+    { id: 7, src: ch11, name: "Deepshika Roy" },
+    { id: 7, src: ch12, name: "Deeba Ali Naz" },
+  ];
