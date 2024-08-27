@@ -13,7 +13,7 @@ import { TitleText, TypingText } from "./Custom";
 const events = [
   { src: bgmi.src, alt: "BGMI", link: "/about", title: "BGMI" },
   { src: web.src, alt: "WEB DEV WAR", link: "/about", title: "WEB DEV WAR" },
-  { src: standup.src, alt: "LAUGHTER LIVE", link: "/about", title: "LAUGHTER LIVE" },
+  { src: standup.src, alt: "LAUGHTER LIVE", link: "/about", title: "LAUGHTER   LIVE" },
   { src: frame.src, alt: "FRAME FESTIVAL", link: "/about", title: "REELS" },
 ];
 
@@ -38,12 +38,12 @@ export default function Explore() {
             <motion.div
               key={index}
               variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-              className="flex flex-col items-center justify-center h-57 rounded-3xl"
+              className="flex flex-col items-center justify-center h-57 rounded-full"
             >
               <img
                 src={event.src}
                 alt={event.alt}
-                className="w-full h-full object-cover border rounded-full"
+                className="h-64 object-cover border rounded-full"
               />
               <Link href={event.link} className="text-white text-xl font-extrabold tracking-wide italic mt-6">
                 {event.title}

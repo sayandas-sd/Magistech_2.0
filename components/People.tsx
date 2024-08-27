@@ -35,7 +35,7 @@ import ch12 from "../public/people/Cohead/deeba_ali_naz copy.jpeg";
 
 export default function People() {
     return <div className="container mx-auto mt-2 p-4">
-
+            <div className="text-white  text-orange-400 text-xl flex justify-center items-center">Scroll for Suprise....</div>
         //CONVENOR
         <div className="underline underline-offset-8 text-xl md:text-3xl italic md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
                 <div className="md:text-5xl text-3xl mt-2 italic font-extrabold text-white">

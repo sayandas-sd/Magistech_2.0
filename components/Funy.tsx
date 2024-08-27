@@ -20,8 +20,8 @@ export default function FunnySmile() {
         // Define a function to handle scroll updates
         const handleScroll = (progress: number) => {
             if (video) {
-                if (progress > 0.1) { // Adjust threshold as needed
-                    video.volume = Math.min(progress * 2, 1); // Adjust volume based on scroll position
+                if (progress > 0.1) { 
+                    video.volume = Math.min(progress * 2, 1); 
                     if (video.paused) {
                         video.play();
                     }
@@ -29,7 +29,7 @@ export default function FunnySmile() {
                     if (!video.paused) {
                         video.pause();
                     }
-                    video.volume = 0; // Mute when below threshold
+                    video.volume = 0; 
                 }
             }
         };
@@ -37,7 +37,7 @@ export default function FunnySmile() {
         // Subscribe to scrollYProgress changes
         const unsubscribe = scrollYProgress.onChange(handleScroll);
 
-        // Clean up the subscription on unmount
+        
         return () => {
             unsubscribe();
         };
