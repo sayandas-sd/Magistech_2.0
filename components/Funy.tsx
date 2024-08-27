@@ -17,7 +17,7 @@ export default function FunnySmile() {
     useEffect(() => {
         const video = videoRef.current;
 
-        // Define a function to handle scroll updates
+        
         const handleScroll = (progress: number) => {
             if (video) {
                 if (progress > 0.1) { 

@@ -35,7 +35,7 @@ import ch12 from "../public/people/Cohead/deeba_ali_naz copy.jpeg";
 
 export default function People() {
     return <div className="container mx-auto mt-2 p-4">
-            <div className="text-white  text-orange-400 text-xl flex justify-center items-center">Scroll for Suprise....</div>
+            <div className=" text-orange-400 text-2xl flex justify-center items-center">Scroll for Suprise....</div>
         //CONVENOR
         <div className="underline underline-offset-8 text-xl md:text-3xl italic md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
                 <div className="md:text-5xl text-3xl mt-2 italic font-extrabold text-white">
@@ -58,25 +58,25 @@ export default function People() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-4 cursor-pointer flex justify-center items-center ">
                     <div className="flex flex-col items-center justify-center h-30 rounded-full">
                         <div className="cursor-pointer">
-                            <img src={co1.src} alt="bgmi" className="border rounded-full"/>
+                            <img src={co1.src} alt="bgmi" className="border h-40 md:h-48 rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Sanjib Ghosh</div>
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center h-30 rounded-full">
                         <div className="cursor-pointer">
-                            <img src={co2.src} alt="bgmi" className="border rounded-full"/>
+                            <img src={co2.src} alt="bgmi" className="border h-40 md:h-48 rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Mousumi Ghosh</div>
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center h-30 rounded-full">
                         <div className="cursor-pointer">
-                            <img src={co3.src} alt="bgmi" className="border rounded-full"/>
+                            <img src={co3.src} alt="bgmi" className="border h-40 md:h-48 rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Debosmita Das</div>
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center h-30 rounded-full">
                         <div className="cursor-pointer">
-                            <img src={co4.src} alt="bgmi" className="border rounded-full"/>
+                            <img src={co4.src} alt="bgmi" className="border h-40 md:h-48 rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Arpan Saha</div>
                         </div>
                     </div>
@@ -92,7 +92,7 @@ export default function People() {
         <div className="grid grid-cols-1 md:grid-cols-1 gap-10 mt-4 cursor-pointer justify-center items-center">
   <div className="flex flex-col items-center justify-center rounded-full">
     <div className="cursor-pointer">
-      <img src={media.src} alt="bgmi" className="border h-44 md:h-52 rounded-full mx-auto"/>
+      <img src={media.src} alt="bgmi" className="border h-40 md:h-52 rounded-full mx-auto"/>
       <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Arpan</div>
       <div className="text-white text-lg font-bold md:text-2xl flex justify-center">Bhattacharya</div>
     </div>
