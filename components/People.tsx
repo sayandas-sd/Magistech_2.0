@@ -23,7 +23,8 @@ import head13 from "../public/people/head/monika_jha.jpeg";
 import head14 from "../public/people/head/kushal_karmakar.jpeg";
 import head15 from "../public/people/head/alu.jpeg";
 import head16 from "../public/people/head/priya.jpeg";
-
+import head17 from "../public/people/head/ujjal_bhattacharya.jpeg";
+import head18 from "../public/people/head/shrayasee_gain.jpeg";
 
 import ch1 from "../public/people/cohead/ujan.jpeg";
 import ch2 from "../public/people/cohead/sahisnu.jpeg";
@@ -38,7 +39,7 @@ import ch10 from "../public/people/cohead/hemant.jpeg";
 import ch11 from "../public/people/cohead/deepshika_roy.jpeg";
 import ch12 from "../public/people/cohead/deeba_ali_naz.jpeg";
 import ch13 from "../public/people/cohead/shrayasee_gain.jpeg";
-import ch14 from "../public/people/cohead/ujjal_bhattacharya.jpeg";
+
 import ch15 from "../public/people/cohead/Shovan chaudhuri.jpeg";
 import ch16 from "../public/people/cohead/Rishav Kumar.jpeg";
 import ch17 from "../public/people/cohead/Rahul_sau.jpeg";
@@ -222,21 +223,7 @@ export default function People() {
                             
                         </div>
             </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-full md:flex md:justify-center md:items-center">
-                            <div className="cursor-pointer ">
-                                <img src={ch14.src} alt="bgmi" className="border h-40 w-64 md:h-56 md:w-64 rounded-full"/>
-                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Ujjal </div>
-                                <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Bhattacharya</div>
-                        
-                            </div>
-            </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-full md:flex md:justify-center md:items-center">
-                            <div className="cursor-pointer ">
-                                <img src={ch13.src} alt="bgmi" className="border h-40 w-64 md:h-56 md:w-64 rounded-full"/>
-                                <div className="text-lg text-white flex justify-center mt-16 font-bold md:text-2xl">Shrayasee Gain</div>
-                        
-                            </div>
-            </div>
+            
             <div className="flex flex-col items-center justify-center h-30 rounded-full md:flex md:justify-center md:items-center">
                             <div className="cursor-pointer ">
                                 <img src={head15.src} alt="bgmi" className="border h-40 w-64 md:h-56 md:w-64 rounded-full"/>
@@ -248,6 +235,21 @@ export default function People() {
                             <div className="cursor-pointer ">
                                 <img src={head16.src} alt="bgmi" className="border h-40 w-64 md:h-56 md:w-64 rounded-full"/>
                                 <div className="text-lg text-white flex justify-center mt-16 font-bold md:text-2xl">Priya Anand</div>
+                        
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full md:flex md:justify-center md:items-center">
+                            <div className="cursor-pointer ">
+                                <img src={head17.src} alt="bgmi" className="border h-40 w-64 md:h-56 md:w-64 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Ujjal </div>
+                                <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Bhattacharya</div>
+                        
+                            </div>
+            </div>
+            <div className="flex flex-col items-center justify-center h-30 rounded-full md:flex md:justify-center md:items-center">
+                            <div className="cursor-pointer ">
+                                <img src={head18.src} alt="bgmi" className="border h-40 w-64 md:h-56 md:w-64 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-16 font-bold md:text-2xl">Shrayasee Gain</div>
                         
                             </div>
             </div>
