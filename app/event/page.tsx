@@ -7,7 +7,6 @@ import Book from "@/components/Register";
 
 export default function EventPage() {
   
-
   return (
     <main className="h-full w-full">
 

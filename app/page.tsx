@@ -10,18 +10,11 @@ import Timer from "@/components/Timer";
 import Paralax from "@/components/Paralax";
 import WhatsNew from "@/components/Merchandise";
 import ShirtBuy from "@/components/ShirtBut";
-import { motion, useScroll } from "framer-motion";
 
 export default function Home() {
-  const { scrollYProgress } = useScroll();
-
+  
   return (
     <main className="h-full w-full">
-      <motion.div
-        className="fixed top-0 left-0 right-0 h-2 bg-pink-600 z-50"
-        style={{ scaleX: scrollYProgress }}
-      />
-
       <div className="flex flex-col h-[850px] gap-20">
         <Landing />
         <div className="flex flex-col mt-7 items-center justify-center text-white">
