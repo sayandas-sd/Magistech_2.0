@@ -2,7 +2,7 @@ import con from "../public/people/convenor/pijus.jpeg";
 
 import co1 from "../public/people/co/sanjib.jpeg";
 import co2 from "../public/people/co/mousumi.jpeg";
-import co3 from "../public/people/co/debosmita_das copy.jpeg";
+import co3 from "../public/people/co/debosmita_das.jpeg";
 import co4 from "../public/people/co/arnab_saha.jpeg";
 
 import media from "../public/people/media/arpan.jpeg";
@@ -18,7 +18,7 @@ import head8 from "../public/people/head/tanusshree.jpeg";
 import head9 from "../public/people/head/dipan.jpeg";
 import head10 from "../public/people/head/devmalya.jpeg";
 import head11 from "../public/people/head/khusi.jpeg";
-import head12 from "../public/people/head/sunny_shah copy.jpeg";
+import head12 from "../public/people/head/sunny_shah.jpeg";
 import head13 from "../public/people/head/monika_jha.jpeg";
 import head14 from "../public/people/head/kushal_karmakar.jpeg";
 import head15 from "../public/people/head/alu.jpeg";
@@ -38,7 +38,6 @@ import ch9 from "../public/people/cohead/kushal_barai.jpeg";
 import ch10 from "../public/people/cohead/hemant.jpeg";
 import ch11 from "../public/people/cohead/deepshika_roy.jpeg";
 import ch12 from "../public/people/cohead/deeba_ali_naz.jpeg";
-import ch13 from "../public/people/cohead/shrayasee_gain.jpeg";
 
 import ch15 from "../public/people/cohead/Shovan chaudhuri.jpeg";
 import ch16 from "../public/people/cohead/Rishav Kumar.jpeg";
