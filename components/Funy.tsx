@@ -17,7 +17,6 @@ export default function FunnySmile() {
     useEffect(() => {
         const video = videoRef.current;
 
-        
         const handleScroll = (progress: number) => {
             if (video) {
                 if (progress > 0.1) { 
@@ -34,10 +33,9 @@ export default function FunnySmile() {
             }
         };
 
-        // Subscribe to scrollYProgress changes
-        const unsubscribe = scrollYProgress.onChange(handleScroll);
-
         
+        const unsubscribe = scrollYProgress.on("change", handleScroll);
+
         return () => {
             unsubscribe();
         };
@@ -59,7 +57,7 @@ export default function FunnySmile() {
                         object-cover"
                     autoPlay
                     loop
-                    muted={false} // Ensure sound is enabled
+                    muted={false} 
                 />
             </div>
         </div>
