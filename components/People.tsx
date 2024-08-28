@@ -50,7 +50,7 @@ import ch17 from "../public/people/cohead/Rahul_sau.jpeg";
 export default function People() {
     return <div className="container mx-auto mt-2 p-4">
             <div className=" text-orange-400 text-2xl flex justify-center items-center">Scroll for Suprise....</div>
-        //CONVENOR
+        {/* CONVENOR */}
         <div className="underline underline-offset-8 text-xl md:text-3xl italic md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
                 <div className="md:text-5xl text-3xl mt-2 italic font-extrabold text-white">
                     CONVENOR
@@ -66,7 +66,7 @@ export default function People() {
             </div>
         </div>
 
-        //co-ordinator
+        {/* COORDINATOR */}
 
         <div className="underline underline-offset-8 text-xl md:text-2xl md:font-semibold tracking-wide mb-10 italic text-slate-800 flex justify-center items-center p-8 mt-7">
                 <div className="md:text-5xl text-3xl mt-4 italic font-extrabold text-white">
@@ -101,7 +101,7 @@ export default function People() {
                     </div>
         </div>            
 
-        //media
+        {/* MEDIA */}
 
         <div className="underline underline-offset-8 text-4xl md:text-5xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center mb-10 p-8 mt-7">
                 <div className="md:text-5xl text-3xl mt-4 italic font-extrabold text-white">
@@ -119,7 +119,7 @@ export default function People() {
         </div>
 
 
-        //event head
+        {/*event head*/}
 
         <div className="underline underline-offset-8 text-xl md:text-3xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center mb-10 p-8 mt-7">
                 <div className="md:text-5xl text-3xl mt-4 mb-5 italic font-extrabold text-white">
@@ -255,7 +255,7 @@ export default function People() {
             </div>
         </div>
 
-        //event co-head
+        {/*event co-head*/}
 
         <div className="underline underline-offset-8text-xl md:text-3xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center mb-10 p-8 mt-7">
                 <div className="md:text-5xl text-3xl mt-4 italic font-extrabold text-white">
