@@ -194,4 +194,26 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+
+  .text-box h1 {
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    
+}
+
+@keyframes back{
+  100%{
+    background-position: 2000px 0;
+  }
+}
+
+.participate-image {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: url('/lol.png');
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}

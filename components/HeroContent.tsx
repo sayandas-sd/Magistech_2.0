@@ -25,7 +25,7 @@ export default function HeroContent() {
           variants={slideInFromTop}
           className="Welcome-box py-[8px] px-[7px] opacity-[0.9]"
         >
-          <div className="Welcome-box py-[5px] opacity-[0.9]">
+          <div className=" flex justify-center md:justify-start Welcome-box py-[5px] opacity-[0.9]">
             <h1 className="Welcome-text font-young font-semibold text-xl md:text-xl text-white " 
             style={{ fontFamily: "'DM Serif Text', serif" }}>
             GNIT Presents
@@ -37,19 +37,17 @@ export default function HeroContent() {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 text-7xl mt-4 font-bold text-white max-w-[700px] w-auto h-auto"
         >
-          <span className="md:text-6xl text-2xl lg:text-7xl" style={{ fontFamily: "'DM Serif Text', serif" }}>
-          
-            <span className="text-transparent font-bold bg-clip-text bg-gradient-to-r from-violet-700 to-cyan-400">
-            MAGISTECH-{" "}
-            2.0{" "}
-            </span>
-            
-          </span>
+          <div className="text-box" style={{ fontFamily: "'DM Serif Text', serif" }}>
+          {/*bg-gradient-to-r from-violet-700 to-cyan-400 */}
+            <h1 className="text-transparent font-extrabold md:mr-32 md:mt-0 mt-6 text-center md:text-7xl text-4xl lg:text-7xl bg-clip-text bg-gradient-to-r from-violet-700 to-cyan-400">
+            MAGISTECH-2.0{" "}
+            </h1>
+          </div>
         </motion.div>
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-xl text-white max-w-[600px] font-bold"
+          className="text-xl text-center flex md:justify-start mt-14 text-white max-w-[600px] font-bold"
           style={{ fontFamily: "'DM Serif Text', serif" }}
         >
           Organized by IT department
@@ -69,7 +67,7 @@ export default function HeroContent() {
         </motion.a>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-4 font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-4 md:ml-0 ml-9  font-bold text-white max-w-[600px] w-auto h-auto"
         >
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLScyMcEFcT7tbpK6K9vMdo7ZD65B_CpX5wlSH8sVj8AQBkID8w/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link">
           <div className="container mt-10 glow-on-hover text-center flex flex-col justify-center">
