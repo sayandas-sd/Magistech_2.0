@@ -53,7 +53,7 @@ export default function People() {
                         </div>
                     </div>
         </div>            
-        {/* MEDIA */}
+        
         <div className="underline underline-offset-8 text-4xl md:text-5xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center mb-10 p-8 mt-7">
                 <div className="md:text-5xl text-3xl mt-4 italic font-extrabold text-white">
                     MEDIA
