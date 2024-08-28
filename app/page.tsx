@@ -12,13 +12,12 @@ import WhatsNew from "@/components/Merchandise";
 import ShirtBuy from "@/components/ShirtBut";
 
 export default function Home() {
-  
   return (
     <main className="h-full w-full">
       <div className="flex flex-col h-[850px] gap-20">
         <Landing />
         <div className="flex flex-col mt-7 items-center justify-center text-white">
-          <Timer launchDate="2024-09-24T17:00:00"/>
+          <Timer launchDate="2024-09-24T17:00:00" />
         </div>
         <Paralax />
         <About />
@@ -30,8 +29,8 @@ export default function Home() {
         <WhatsNew />
         <ShirtBuy />
         <LastText />
-        <div className="font-bold text-white italic flex justify-center mb-10 text-lg md:text-3xl md:text-3xl">
-          TAKE PART! You're just a CLICK away!
+        <div className="font-bold text-white italic flex justify-center mb-10 text-lg md:text-3xl">
+          TAKE PART! You&apos;re just a CLICK away!
         </div>
         <Register />
         <Footer />
