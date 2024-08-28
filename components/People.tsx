@@ -21,22 +21,22 @@ import head11 from "../public/people/head/khusi.jpeg";
 import head12 from "../public/people/head/sunny_shah copy.jpeg";
 import head13 from "../public/people/head/monika_jha.jpeg";
 import head14 from "../public/people/head/kushal_karmakar.jpeg";
-import head15 from "../public/people/Head/alu.jpeg";
-import head16 from "../public/people/Head/priya.jpeg";
+import head15 from "../public/people/head/alu.jpeg";
+import head16 from "../public/people/head/priya.jpeg";
 
 
-import ch1 from "../public/people/Cohead/ujan.jpeg";
-import ch2 from "../public/people/Cohead/sahisnu.jpeg";
-import ch3 from "../public/people/Cohead/argha_santra copy.jpeg";
-import ch4 from "../public/people/Cohead/arnab copy.jpeg";
-import ch5 from "../public/people/Cohead/anandi copy.jpeg";
-import ch6 from "../public/people/Cohead/supriya.jpeg";
-import ch7 from "../public/people/Cohead/sayani.jpeg";
+import ch1 from "../public/people/cohead/ujan.jpeg";
+import ch2 from "../public/people/cohead/sahisnu.jpeg";
+import ch3 from "../public/people/cohead/argha_santra.jpeg";
+import ch4 from "../public/people/cohead/arnab.jpeg";
+import ch5 from "../public/people/cohead/anandi.jpeg";
+import ch6 from "../public/people/cohead/supriya.jpeg";
+import ch7 from "../public/people/cohead/sayani.jpeg";
 
-import ch9 from "../public/people/Cohead/kushal_barai.jpeg";
-import ch10 from "../public/people/Cohead/hemant.jpeg";
-import ch11 from "../public/people/Cohead/deepshika_roy.jpeg";
-import ch12 from "../public/people/Cohead/deeba_ali_naz copy.jpeg";
+import ch9 from "../public/people/cohead/kushal_barai.jpeg";
+import ch10 from "../public/people/cohead/hemant.jpeg";
+import ch11 from "../public/people/cohead/deepshika_roy.jpeg";
+import ch12 from "../public/people/cohead/deeba_ali_naz.jpeg";
 import ch13 from "../public/people/cohead/shrayasee_gain.jpeg";
 import ch14 from "../public/people/cohead/ujjal_bhattacharya.jpeg";
 import ch15 from "../public/people/cohead/Shovan chaudhuri.jpeg";
