@@ -16,7 +16,7 @@ export default function Footer() {
           </div>
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 cursor-pointer">
             <div>
-              <h2 className="mb-6 text-lg font-semibold text-gray-900 uppercase dark:text-white underline">Venue</h2>
+              <h2 className="mb-6 text-lg font-semibold text-white uppercase underline">Venue</h2>
               <div className="text-white">
                 <div className="text-[15px]">
                   Guru Nanak Institute of Technology 157/F,
@@ -28,7 +28,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="mx-11">
-              <h2 className="mb-6 text-lg font-semibold text-gray-900 uppercase dark:text-white underline">About</h2>
+              <h2 className="mb-6 text-lg font-semibold text-white uppercase underline">About</h2>
               <ul className="text-white dark:text-gray-400 font-medium">
                 <li className="mb-4">
                   <a href="https://google.com" className="hover:underline text-sm">Develop By</a>

@@ -45,7 +45,7 @@ export default function HeroContent() {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] flex items-center justify-center"
         >
-        <div className="font-medium text-fuchsia-500 mt-3 flex items-center">
+        <div className="font-medium text-fuchsia-500 mt-3 md:ml-0 ml-5 flex items-center mr-">
             <div className="flex-shrink-0">
                 <span>24-25 SEPTEMBER, </span>
                 <span className="font-bold">2024</span>
@@ -55,7 +55,7 @@ export default function HeroContent() {
         </motion.a>
         <motion.div
           variants={slideInFromLeft(0.5)}
-          className="flex flex-col gap-6 mt-4 md:ml-0 ml-6  font-bold text-white max-w-[600px] w-auto h-auto"
+          className="flex flex-col gap-6 mt-4 md:ml-0 ml-10  font-bold text-white max-w-[600px] w-auto h-auto"
         >
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLScyMcEFcT7tbpK6K9vMdo7ZD65B_CpX5wlSH8sVj8AQBkID8w/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link">
           <div className="container mt-10 glow-on-hover text-center flex flex-col justify-center">
