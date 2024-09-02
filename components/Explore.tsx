@@ -3,6 +3,7 @@
 import bgmi from "../public/BGMI.jpeg";
 import web from "../public/webwar.jpeg";
 import frame from "../public/reels.jpeg";
+import chess from "../public/chess.jpeg";
 import standup from "../public/standup.jpeg";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -12,8 +13,8 @@ import { TitleText, TypingText } from "./Custom";
 
 const events = [
   { src: bgmi.src, alt: "BGMI", link: "/about", title: "BGMI" },
-  { src: web.src, alt: "WEB DEV WAR", link: "/about", title: "WEB DEV WAR" },
-  { src: standup.src, alt: "LAUGHTER LIVE", link: "/about", title: "LAUGHTER   LIVE" },
+  { src: web.src, alt: "WEB DEV WAR", link: "/about", title: "WEB WAR" },
+  { src: chess.src, alt: "CHESS", link: "/about", title: "CHECKMATE" },
   { src: frame.src, alt: "FRAME FESTIVAL", link: "/about", title: "REELS" },
 ];
 
@@ -38,12 +39,12 @@ export default function Explore() {
             <motion.div
               key={index}
               variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-              className="flex flex-col items-center justify-center h-57 rounded-full"
+              className="flex flex-col items-center justify-center rounded-full"
             >
               <img
                 src={event.src}
                 alt={event.alt}
-                className="h-64 object-cover border rounded-full"
+                className="h-36 md:h-64 object-cover border rounded-full"
               />
               <Link href={event.link} className="text-white text-xl font-extrabold tracking-wide italic mt-6">
                 {event.title}

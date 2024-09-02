@@ -4,7 +4,7 @@ import code from "../public/code.jpeg";
 import photo from "../public/photography.jpeg";
 import web from "../public/webwar.jpeg";
 import quiz from "../public/techquiz.jpeg";
-import ball from "../public/8ballpool.jpeg";
+import ball from "../public/ballpool.jpeg";
 import poster from "../public/Poster.jpeg";
 import standup from "../public/standup.jpeg";
 import chess from "../public/chess.jpeg"
@@ -63,7 +63,7 @@ export default async function Events() {
                         
                         <Link href="/"  className="cursor-pointer">
                             <img src={chess.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">CHECKMATE</div>
+                            <div className="text-lg text-white flex justify-center mt-10 font-bold md:text-2xl">CHECKMATE</div>
                             
                         </Link>
                     </div>
