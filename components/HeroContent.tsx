@@ -27,7 +27,7 @@ export default function HeroContent() {
           className="flex flex-col gap-6 text-7xl mt-4 font-bold text-white max-w-[700px] w-auto h-auto"
         >
           <div className="text-box" style={{ fontFamily: "'DM Serif Text', serif" }}>
-          {/*bg-gradient-to-r from-violet-700 to-cyan-400 */}
+          
             <h1 className="text-transparent font-extrabold md:mr-32 md:mt-0 mt-6 text-center md:text-7xl text-4xl lg:text-7xl bg-clip-text bg-gradient-to-r from-violet-700 to-cyan-400">
             MAGISTECH{" "}2.0{" "}
             </h1>
