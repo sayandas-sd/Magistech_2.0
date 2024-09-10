@@ -63,7 +63,7 @@ export default async function Events() {
                         
                         <Link href="/"  className="cursor-pointer">
                             <img src={chess.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-10 font-bold md:text-2xl">CHECKMATE</div>
+                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">CHECKMATE</div>
                             
                         </Link>
                     </div>

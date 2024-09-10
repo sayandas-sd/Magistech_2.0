@@ -14,6 +14,5 @@ export default function event() {
         <People />
         <FunnySmile />
         <Footer />
-        
     </div>
 }

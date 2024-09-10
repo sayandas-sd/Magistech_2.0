@@ -18,7 +18,21 @@ export default function People() {
                 </div>
             </div>
         </div>
-
+        <div className="underline underline-offset-8 text-xl md:text-3xl italic md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
+                <div className="md:text-5xl text-3xl mt-2 italic font-extrabold text-white">
+                    CO-CONVENOR
+                </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-1 gap-10 mt-4 cursor-pointer justify-center items-center">
+            <div className="flex flex-col items-center justify-center rounded-full">
+                <div className="cursor-pointer">
+                    <Image src={'/jeshmita.jpeg'} alt="bgmi" width={160} height={10} className="border md:h-48 md:w-48 rounded-full mx-auto"/>
+                    <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Jeshmita</div>
+                    <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Chatterjee</div>
+                </div>
+            </div>
+        </div>
+        
         {/* COORDINATOR */}
 
         <div className="underline underline-offset-8 text-xl md:text-2xl md:font-semibold tracking-wide mb-10 italic text-slate-800 flex justify-center items-center p-8 mt-7">
@@ -28,7 +42,38 @@ export default function People() {
         </div>
         
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-4 cursor-pointer flex justify-center items-center ">
-                    <div className="flex flex-col items-center justify-center h-52 rounded-full">
+            
+                    <div className="flex flex-col items-center justify-center h-30 rounded-full">
+                        <div className="cursor-pointer">
+                        <Image src={'/kushal_karmakar.jpeg'} alt="bgmi" width={200} height={30} className="border md:h-48 md:w-48 rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Kushal </div>
+                            <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Karmakar </div>
+                        </div>
+                    </div>
+                    <div className="flex flex-col items-center justify-center h-30 rounded-full">
+                        <div className="cursor-pointer">
+                        <Image src={'/tanusshree.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
+                        <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Tanushree Khan</div>
+                        </div>
+                    </div>
+                        
+                    <div className="flex flex-col items-center justify-center h-30 rounded-full">
+                        <div className="cursor-pointer">
+                            <Image src={'/debosmita.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Debosmita Das</div>
+                        </div>
+                    </div>
+                    <div className="flex flex-col items-center justify-center h-30 rounded-full">
+                        <div className="cursor-pointer">
+                            <Image src={'/arnab_saha.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Arpan Saha</div>
+                        </div>
+                    </div>
+        </div>            
+
+
+        {/*event head
+         <div className="flex flex-col items-center justify-center h-52 rounded-full">
                         <div className="cursor-pointer">
                             <Image src={'/sanjib.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Sanjib Ghosh</div>
@@ -40,23 +85,41 @@ export default function People() {
                             <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Mousumi Ghosh</div>
                         </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-30 rounded-full">
-                        <div className="cursor-pointer">
-                            <Image src={'/debosmita.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Debosmita Das</div>
+        */}
+        <div className="underline underline-offset-8 text-xl md:text-3xl italic md:font-semibold tracking-wide text-slate-800 flex justify-center items-center p-8 mt-7">
+                <div className="md:text-5xl text-3xl mt-2 italic font-extrabold text-white">
+                    MARKETING
+                </div>
+        </div>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-4 cursor-pointer justify-center items-center">
+            <div className="flex flex-col items-center justify-center rounded-full">
+                <div className="cursor-pointer">
+                    <Image src={'/sanjib.jpeg'} alt="bgmi" width={160} height={10} className="border md:h-48 md:w-48 rounded-full mx-auto"/>
+                    <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Sanjib Ghosh</div>
+                </div>
+            </div>
+            <div className="flex flex-col items-center justify-center rounded-full">
+                <div className="cursor-pointer">
+                <Image src={'/sahisnu.jpeg'} alt="bgmi" width={160} height={10} className="border md:h-48 md:w-48 rounded-full mx-auto"/>
+                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Sahisnu Das </div>
+                                <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Pattanayak</div>
+                </div>
+            </div>
+            <div className="flex flex-col items-center justify-center rounded-full">
+                <div className="cursor-pointer">
+                <Image src={'/khusi.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Khusi Yadav </div>
+                </div>
+            </div>
+            <div className="flex flex-col items-center justify-center rounded-full">
+            <div className="cursor-pointer ">
+                            <Image src={'/anish.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Anish Khan </div>
                         </div>
-                    </div>
-                    <div className="flex flex-col items-center justify-center h-30 rounded-full">
-                        <div className="cursor-pointer">
-                            <Image src={'/arnab_saha.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Arpan Saha</div>
-                        </div>
-                    </div>
-        </div>            
+            </div>
+        </div>
+    
 
-
-        {/*event head*/}
-        
         <div className="underline underline-offset-8 text-xl md:text-3xl md:font-semibold tracking-wide text-slate-800 flex justify-center items-center mb-10 p-8 mt-7">
                 <div className="md:text-5xl text-3xl mt-4 mb-5 italic font-extrabold text-white">
                     HEAD
@@ -68,12 +131,6 @@ export default function People() {
                             <img src={'/sayan.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Sayan Das </div>
                         
-                        </div>
-            </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
-                        <div className="cursor-pointer ">
-                            <Image src={'/anish.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Anish Khan </div>
                         </div>
             </div>
             <div className="flex flex-col items-center justify-center h-30 rounded-3xl ">
@@ -98,22 +155,7 @@ export default function People() {
             <div className="flex flex-col items-center justify-center h-30 rounded-full ">
                         <div className="cursor-pointer ">
                             <Image src={'/avirup.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Avitup Ghoshal </div>
-                            
-                        </div>
-            </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
-                        <div className="cursor-pointer ">
-                            <Image src={'/jeshmita.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Jeshmita</div>
-                            <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Chatterjee</div>
-                            
-                        </div>
-            </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
-                        <div className="cursor-pointer ">
-                            <Image src={'/tanusshree.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Tanushree Khan</div>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Avirup Ghoshal </div>
                             
                         </div>
             </div>
@@ -133,13 +175,6 @@ export default function People() {
             </div>
             <div className="flex flex-col items-center justify-center h-30 rounded-full ">
                         <div className="cursor-pointer ">
-                            <Image src={'/khusi.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Khusi Yadav </div>
-                            
-                        </div>
-            </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
-                        <div className="cursor-pointer ">
                             <Image src={'/sunny_shah.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Sunny Shah</div>
                             
@@ -149,14 +184,6 @@ export default function People() {
                         <div className="cursor-pointer ">
                             <Image src={'/monika_jha.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Monika Jha </div>
-                            
-                        </div>
-            </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
-                        <div className="cursor-pointer ">
-                            <Image src={'/kushal_karmakar.jpeg'} alt="bgmi" width={200} height={30} className="border md:h-52 md:w-52 rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Kushal </div>
-                            <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Karmakar </div>
                             
                         </div>
             </div>
@@ -177,7 +204,7 @@ export default function People() {
             </div>
             <div className="flex flex-col items-center justify-center h-30 rounded-full md:flex md:justify-center md:items-center">
                             <div className="cursor-pointer ">
-                                <Image src={'/ujjal_bhattacharya.jpeg'} alt="bgmi" width={200} height={30} className="border md:h-52 md:w-52 rounded-full"/>
+                                <Image src={'/ujjal_bhattacharya.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
                                 <div className="text-lg text-white flex justify-center mt-5 font-bold md:text-2xl">Ujjal </div>
                                 <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Bhattacharya</div>
                         
@@ -185,7 +212,7 @@ export default function People() {
             </div>
             <div className="flex flex-col items-center justify-center h-30 rounded-full md:flex md:justify-center md:items-center">
                             <div className="cursor-pointer ">
-                                <Image src={'/shrayasee_gain.jpeg'} alt="bgmi" width={200} height={30} className="border md:h-52 md:w-52 rounded-full"/>
+                                <Image src={'/shrayshee.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
                                 <div className="text-lg text-white flex justify-center mt-12 font-bold md:text-2xl">Shrayasee Gain</div>
                         
                             </div>
@@ -204,15 +231,6 @@ export default function People() {
                             <div className="cursor-pointer ">
                                 <Image src={'/ujan.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
                                 <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Ujan Ghosh</div>
-                                
-                            </div>
-            </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-full ">
-                            <div className="cursor-pointer ">
-                                <Image src={'/sahisnu.jpeg'} alt="bgmi" width={200} height={40}  className="border rounded-full"/>
-                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Sahisnu Das </div>
-                                <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Pattanayak</div>
-
                                 
                             </div>
             </div>
@@ -314,14 +332,6 @@ export default function People() {
                             <div className="cursor-pointer ">
                                 <Image src={'/rahul_sau.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
                                 <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Rahul Sau</div>
-                        
-                            </div>
-            </div>
-            <div className="flex flex-col items-center justify-center h-30 rounded-full md:flex md:justify-center md:items-center">
-                            <div className="cursor-pointer ">
-                                <Image src={'/shovon.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
-                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Shovan </div>
-                                <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Chaudhuri </div>
                         
                             </div>
             </div>
