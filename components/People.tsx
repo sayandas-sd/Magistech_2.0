@@ -52,20 +52,21 @@ export default function People() {
                     </div>
                     <div className="flex flex-col items-center justify-center h-30 rounded-full">
                         <div className="cursor-pointer">
-                        <Image src={'/tanusshree.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
-                        <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Tanushree Khan</div>
+                        <Image src={'/tanusshree.jpeg'} alt="bgmi" width={200} height={30} className="border rounded-full"/>
+                        <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Tanushree</div>
+                        <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Khan</div>
                         </div>
                     </div>
                         
                     <div className="flex flex-col items-center justify-center h-30 rounded-full">
                         <div className="cursor-pointer">
-                            <Image src={'/debosmita.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 rounded-full"/>
+                            <Image src={'/debosmita.jpeg'} alt="bgmi" width={200} height={30} className="border md:h-52 rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Debosmita Das</div>
                         </div>
                     </div>
                     <div className="flex flex-col items-center justify-center h-30 rounded-full">
                         <div className="cursor-pointer">
-                            <Image src={'/arnab_saha.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 rounded-full"/>
+                            <Image src={'/arnab_saha.jpeg'} alt="bgmi" width={200} height={30} className="border md:h-52 rounded-full"/>
                             <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Arpan Saha</div>
                         </div>
                     </div>
