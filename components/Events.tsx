@@ -1,23 +1,4 @@
-import Footer from "./Footer";
-import bgmi from "../public/BGMI.jpeg";
-import code from "../public/code.jpeg";
-import photo from "../public/photography.jpeg";
-import web from "../public/webwar.jpeg";
-import quiz from "../public/techquiz.jpeg";
-import ball from "../public/ballpool.jpeg";
-import poster from "../public/Poster.jpeg";
-import standup from "../public/standup.jpeg";
-import chess from "../public/chess.jpeg"
-import football from "../public/football.jpeg";
-import reels from "../public/reels.jpeg";
-import drone from "../public/drone.jpeg";
-import elocution from "../public/elocution.jpeg";
-import teasure from "../public/teasurehunt.jpeg";
-import brain from "../public/brain.jpeg";
-import Link from "next/link";
-import investigate from "../public/investigate.jpeg";
-import school from "../public/school.jpeg";
-import ff from "../public/freefire.jpeg";
+
 import Image from "next/image";
 
 export default async function Events() {
