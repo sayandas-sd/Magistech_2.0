@@ -2,14 +2,17 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import arrow from "../public/arrow-down.svg";
 
 import {
+  fadeIn,
   slideInFromLeft,
   slideInFromRight,
   slideInFromTop,
 } from "../utils/motion";
 
 import Link from "next/link";
+import Timer from "./Timer";
 
 
 export default function HeroContent() {
@@ -35,7 +38,7 @@ export default function HeroContent() {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-xl text-center flex md:justify-start justify-center mt-14 text-white max-w-[600px] font-bold"
+          className="text-xl text-center flex md:justify-start justify-center mt-14 text-blue-500 max-w-[600px] font-extrabold"
           style={{ fontFamily: "'DM Serif Text', serif" }}
         >
           Presents by IT department
@@ -44,7 +47,7 @@ export default function HeroContent() {
           variants={slideInFromLeft(1)}
           className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] flex items-center justify-center"
         >
-        <div className="font-medium text-fuchsia-500 mt-3 flex justify-center items-center ">
+        <div className="text-white mt-8 flex justify-center items-center font-extrabold">
             <div className="flex-shrink-0">
                 <div className="pl-4 md:pl-0">
                 24-25 SEPTEMBER,2024
@@ -58,11 +61,14 @@ export default function HeroContent() {
           className="flex flex-col gap-6 mt-4 md:ml-0 ml-8  font-bold text-white max-w-[600px] w-auto h-auto"
         >
             <Link href="https://docs.google.com/forms/d/e/1FAIpQLScyMcEFcT7tbpK6K9vMdo7ZD65B_CpX5wlSH8sVj8AQBkID8w/viewform?vc=0&c=0&w=1&flr=0&usp=mail_form_link">
-              <div className="container mt-10 glow-on-hover text-center flex flex-col justify-center">
+              <div className="container mt-14 glow-on-hover text-center flex flex-col justify-center">
                     Register Events
               </div>
             </Link>
         </motion.div>
+        <div className="flex flex-col mt-32 items-center justify-center text-center text-white text-2xl">
+        
+        </div>
       </div>
     </motion.div>
   );
