@@ -16,7 +16,7 @@ export default async function Events() {
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mt-4 cursor-pointer">
                     <div className="flex flex-col items-center justify-center h-64 rounded-3xl">
                             <div className="cursor-pointer ">
-                                <Image src={'/bgmi.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <Image src={'/pubg.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
                                 <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">BGMI</div>
                                
                             </div>

@@ -1,6 +1,5 @@
 "use client";
-
-import bgmi from "../public/BGMI.jpeg";
+import pubg from "../public/pubg.jpeg";
 import web from "../public/webwar.jpeg";
 import frame from "../public/reels.jpeg";
 import chess from "../public/chess.jpeg";
@@ -13,7 +12,7 @@ import { fadeIn, slideInFromLeft, staggerContainer } from "@/utils/motion";
 import { TitleText, TypingText } from "./Custom";
 
 const events = [
-  { src: bgmi.src, alt: "BGMI", link: "/about", title: "BGMI" },
+  { src: pubg.src, alt: "BGMI", link: "/about", title: "BGMI" },
   { src: web.src, alt: "WEB DEV WAR", link: "/about", title: "WEB WAR" },
   { src: chess.src, alt: "CHESS", link: "/about", title: "CHECKMATE" },
   { src: ff.src, alt: "FREE FIRE", link: "/about", title: "FREE FIRE" },
