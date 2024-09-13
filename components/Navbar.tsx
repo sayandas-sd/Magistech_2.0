@@ -12,12 +12,12 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="w-full h-[65px] fixed top-0 z-50 px-10">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 px-[10px]">
-        <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+    <nav className="w-full h-[65px] fixed top-5 z-50 px-10">
+      <div className="max-w-screen-2xl  flex flex-wrap items-center justify-between mx-auto p-4 px-[10px]">
+        <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse ">
           <img
             src={logo.src}
-            className="h-16"
+            className="h-16 "
             alt="Flowbite Logo"
           />
         </Link>

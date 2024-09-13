@@ -4,6 +4,7 @@ import bgmi from "../public/BGMI.jpeg";
 import web from "../public/webwar.jpeg";
 import frame from "../public/reels.jpeg";
 import chess from "../public/chess.jpeg";
+import ff from "../public/freefire.jpeg";
 import standup from "../public/standup.jpeg";
 import { motion } from "framer-motion";
 import Link from "next/link";
@@ -15,7 +16,7 @@ const events = [
   { src: bgmi.src, alt: "BGMI", link: "/about", title: "BGMI" },
   { src: web.src, alt: "WEB DEV WAR", link: "/about", title: "WEB WAR" },
   { src: chess.src, alt: "CHESS", link: "/about", title: "CHECKMATE" },
-  { src: frame.src, alt: "FRAME FESTIVAL", link: "/about", title: "REELS" },
+  { src: ff.src, alt: "FREE FIRE", link: "/about", title: "FREE FIRE" },
 ];
 
 export default function Explore() {

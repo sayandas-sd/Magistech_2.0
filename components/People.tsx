@@ -109,7 +109,7 @@ export default function People() {
             <div className="flex flex-col items-center justify-center rounded-full">
                 <div className="cursor-pointer">
                 <Image src={'/khusi.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Khusi Yadav </div>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Khushi Yadav </div>
                 </div>
             </div>
             <div className="flex flex-col items-center justify-center rounded-full">
@@ -177,7 +177,7 @@ export default function People() {
             <div className="flex flex-col items-center justify-center h-30 rounded-full ">
                         <div className="cursor-pointer ">
                             <Image src={'/sunny_shah.jpeg'} alt="bgmi" width={200} height={40} className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Sunny Shah</div>
+                            <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Sunny Sah</div>
                             
                         </div>
             </div>
@@ -280,7 +280,7 @@ export default function People() {
             <div className="flex flex-col items-center justify-center h-30 rounded-full ">
                             <div className="cursor-pointer ">
                                 <Image src={'/kushal_barai.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
-                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Kushal Barai</div>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Kusal Barai</div>
                         
                             </div>
             </div>

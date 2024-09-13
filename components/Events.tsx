@@ -17,6 +17,8 @@ import brain from "../public/brain.jpeg";
 import Link from "next/link";
 import investigate from "../public/investigate.jpeg";
 import school from "../public/school.jpeg";
+import ff from "../public/freefire.jpeg";
+import Image from "next/image";
 
 export default async function Events() {
 
@@ -32,142 +34,168 @@ export default async function Events() {
             <div className="container mx-auto mt-20 p-4">
                 <div className="grid grid-cols-2 md:grid-cols-5 gap-10 mt-4 cursor-pointer">
                     <div className="flex flex-col items-center justify-center h-64 rounded-3xl">
-                        
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={bgmi.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">BGMI</div>
-                        </Link>
+                            <div className="cursor-pointer ">
+                                <Image src={'/bgmi.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">BGMI</div>
+                               
+                            </div>
+                    </div>
+                    <div className="flex flex-col items-center justify-center h-64 rounded-3xl">
+
+                            <div className="cursor-pointer ">
+                                <Image src={'/freefire.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">FREE FIRE</div>
+                               
+                            </div>
+                    </div>
+                    <div className="flex flex-col items-center justify-center h-64 rounded-3xl">
+                            <div className="cursor-pointer ">
+                                <Image src={'/webwar.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">WEB WAR</div>
+                               
+                            </div>
+                           
                     </div>
                     <div className="flex flex-col items-center justify-center h-64 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={code.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">CODE ARENA</div>
-                        </Link>
+                            <div className="cursor-pointer ">
+                                <Image src={'/techquiz.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">TECH TRIVIA</div>
+                               
+                            </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 rounded-3xl">
-                        
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={quiz.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">TECH TRIVIA </div>
-                        </Link>
+                    <div className="flex flex-col items-center justify-center  md:mt-0 mt-6 h-64 rounded-3xl">
+                            <div className="cursor-pointer ">
+                                <Image src={'/code.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">CODE ARENA</div>
+                               
+                            </div>
+                           
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center mt-6 h-64 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={web.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">WEB WAR</div>
-                        </Link>
+                            <div className="cursor-pointer ">
+                                <Image src={'/chess.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">CHECKMATE</div>
+                               
+                            </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={chess.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">CHECKMATE</div>
-                            
-                        </Link>
+                        <div className="cursor-pointer ">
+                                <Image src={'/ballpool.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">STROKE </div>
+                                <div className="text-lg text-white flex justify-center  font-bold md:text-2xl">SHOWDOWN</div>
+                               
+                            </div>
+                        
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={ball.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">STROKE </div>
-                            <div className="text-lg text-white flex justify-center  font-bold md:text-2xl">SHOWDOWN</div>
-                        </Link>
+                        <div className="cursor-pointer ">
+                                <Image src={'/photography.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">PHOTO THRILL </div>
+                                     
+                            </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={photo.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-10 font-bold md:text-2xl">PHOTO THRILL </div>
-               
-                        </Link>
+                            <div className="cursor-pointer ">
+                                <Image src={'/football.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">DIGITAL DARBY </div>
+                                     
+                            </div>
+                        
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={football.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-10 font-bold md:text-2xl">DIGITAL DERBY </div>
-                        
-                        </Link>
+                    <div className="cursor-pointer ">
+                                <Image src={'/standup.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">LAUGHTER </div>
+                                <div className="text-lg text-white flex justify-center font-bold md:text-2xl">LIVE </div>
+                                     
+                            </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={standup.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-10 font-bold md:text-2xl">LAUGHTER LIVE </div>
-                        
-                        </Link>
-                    </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
-                        
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={reels.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">FRAME </div>
+                    <div className="cursor-pointer ">
+                                <Image src={'/reels.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">FRAME </div>
                             <div className="text-lg text-white flex justify-center  font-bold md:text-2xl">FESTIVAL</div>
-                        
-                        </Link>
+                                     
+                            </div>
+                            
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={elocution.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-10 font-bold md:text-2xl">VERBAL VIBES</div>
-                        
-                        </Link>
+                    <div className="cursor-pointer ">
+                                <Image src={'/elocution.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">VERBAL VIBES </div>
+                                     
+                            </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
+                        <div className="cursor-pointer ">
+                                <Image src={'/drone.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">ARTISTIC</div>
+                                <div className="text-lg text-white flex justify-center  font-bold md:text-2xl">SHOWDOWN</div>
+                                     
+                            </div>
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={drone.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">ARTISTIC</div>
-                            <div className="text-lg text-white flex justify-center  font-bold md:text-2xl">SHOWDOWN</div>
-                        
-                        </Link>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={poster.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">SCIENCE</div>
+                         <div className="cursor-pointer ">
+                                <Image src={'/Poster.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                
+                            <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">SCIENCE</div>
                             <div className="text-lg text-white flex justify-center  font-bold md:text-2xl">SPLASH</div>
-                        
-                        </Link>
+                                     
+                            </div>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={teasure.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">ADVENTURE</div>
+                        <div className="cursor-pointer ">
+                                <Image src={'/teasurehunt.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                
+                            <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">ADVENTURE</div>
                             <div className="text-lg text-white flex justify-center  font-bold md:text-2xl">SEEKERS</div>
+                                     
+                        </div>
                         
-                        </Link>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={investigate.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-4 font-bold md:text-2xl">INVESTIGATE</div>
+                    <div className="cursor-pointer ">
+                                <Image src={'/investigate.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                
+                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">INVESTIGATE</div>
                             <div className="text-lg text-white flex justify-center  font-bold md:text-2xl">SHOWCASE</div>
-                        
-                        </Link>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+                                     
+                        </div>
+                           
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={brain.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-10 font-bold md:text-2xl">BRAIN BOWL</div>
+                    <div className="cursor-pointer ">
+                                <Image src={'/brain.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                
+                                <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">BRAIN BOWL</div>
                             <div className="text-lg text-white flex justify-center  font-bold md:text-2xl"></div>
-                        
-                        </Link>
                     </div>
-                    <div className="flex flex-col items-center justify-center h-64 mt-2 rounded-3xl">
+
+                       
+                    </div>
+                    <div className="flex flex-col items-center justify-center h-64 mt-6 rounded-3xl">
                         
-                        <Link href="/"  className="cursor-pointer">
-                            <img src={school.src} alt="bgmi" className="border rounded-full"/>
-                            <div className="text-lg text-white flex justify-center mt-10 font-bold md:text-2xl">DESIGN DISPLAY</div>
-                        
-                        </Link>
+                    <div className="cursor-pointer ">
+                                <Image src={'/school.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-52 md:w-52 rounded-full"/>
+                                
+                                <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">DESIGN </div>
+                                <div className="text-lg text-white flex justify-center font-bold md:text-2xl"> DISPLAY</div>
+                            <div className="text-lg text-white flex justify-center  font-bold md:text-2xl"></div>
+                    </div>
+
                     </div>
                 </div>
                 
