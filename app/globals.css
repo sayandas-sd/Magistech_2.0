@@ -195,9 +195,8 @@
     font-style: normal;
   }
 
-  .text-box h1 {
-    color: transparent;
-    -webkit-text-stroke: 1px #fff;
+  .text-box {
+    -webkit-text-stroke: 1px black;
     
 }
 
@@ -211,6 +210,16 @@
   color: transparent;
   -webkit-text-stroke: 1px #fff;
   background: url('/lol.png');
+    background-size: cover;
+    background-position: center;
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+
+.date-image {
+  color: transparent;
+  background: url('/gradient.jpeg');
     background-size: cover;
     background-position: center;
     -webkit-background-clip: text;
