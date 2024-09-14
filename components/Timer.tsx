@@ -46,7 +46,7 @@ export default function Timer({ launchDate }: { launchDate: string }) {
   
   if (!hasMounted) {
     return <div className="flex flex-col items-center justify-center text-white">
-      <div className="mb-6 text-xl md:text-2xl font-medium font-bold anton-regular">We are Launching Soon.....</div>
+      <div className="mb-6 text-xl md:text-2xl font-extrabold">We are Launching Soon.....</div>
       <div className="flex space-x-4 md:text-3xl text-xl font-extrabold border border-1 p-6 rounded-xl">
         <div className="text-center">00 : <div></div></div>
         <div className="text-center">00 : <div></div></div>
@@ -59,7 +59,7 @@ export default function Timer({ launchDate }: { launchDate: string }) {
   return (
     
     <div className="flex flex-col items-center justify-center text-white">
-      <div className="mb-6 text-xl md:text-2xl font-medium font-bold anton-regular">We are Launching Soon.....</div>
+      <div className="mb-6 text-xl md:text-2xl font-extrabold">We are Launching Soon...</div>
       <div className="flex space-x-4 md:text-3xl text-xl font-extrabold border-2 border-violet-500 p-8 rounded-xl">
         <div className="text-center">
           <span>{timeLeft.days}</span> :
