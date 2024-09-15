@@ -81,13 +81,13 @@ export default function People() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-10 mt-4 cursor-pointer justify-center items-center">
             <div className="flex flex-col items-center justify-center rounded-full">
                 <div className="cursor-pointer">
-                    <Image src={'/sanjib.jpeg'} alt="bgmi" width={160} height={10} className="border md:h-48 md:w-48 rounded-full mx-auto"/>
+                    <Image src={'/sanjib.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-48 md:w-48 rounded-full mx-auto"/>
                     <div className="text-lg text-white flex justify-center mt-14 font-bold md:text-2xl">Sanjib Ghosh</div>
                 </div>
             </div>
             <div className="flex flex-col items-center justify-center rounded-full">
                 <div className="cursor-pointer">
-                <Image src={'/sahisnu.jpeg'} alt="bgmi" width={160} height={10} className="border md:h-48 md:w-48 rounded-full mx-auto"/>
+                <Image src={'/sahisnu.jpeg'} alt="bgmi" width={200} height={40} className="border md:h-48 md:w-48 rounded-full mx-auto"/>
                                 <div className="text-lg text-white flex justify-center mt-7 font-bold md:text-2xl">Sahishnu Das </div>
                                 <div className="text-lg text-white flex justify-center font-bold md:text-2xl">Pattanayak</div>
                 </div>
